@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@theme {  --color-*: initial;  
+  --color-white: #fff; 
+  --color-black: #000;
+  --color-gray-100: #5B5B5B4D;
+  --color-gray-200: #4C44444D;
+  --color-green: #15C384;
+  --color-red: #880000;
+  --color-back: #252628;
+  --color-low: #46F7B7;
+  --color-mid: #F5EB88;
+  --color-high:#FFA775;
+  --color-highs:"#F27F77";
+  --color-low-text: #096343;
+  --color-mid-text: #653408;
+  --color-high-text: #702D08;
+  --color-highs-text: #5F0F0B;
+  --color-danger:#AF0505;
+}
+
+@layer base {
+  body {
+    @apply bg-[#252628]; /* Set background color for the entire page */
+  }
+}
+
+h1 {
+  font-size: 47.78px;
+}
+
+h2 {
+  font-size: 39.81px;
+}
+
+h3 {
+  font-size: 33.18px;
+}
+
+h4 {
+  font-size: 27.65px;
+}
+
+h5 {
+  font-size: 23.04px;
+}
+h6 {
+  font-size: 19.20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+small {
+  font-size: 13.33px;
+}
+
+extra-small {
+  font-size: 11.11px;
+} 
+
+.bold {
+  font-weight: 700;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+body {
+  font-weight: 400; /* Adjust the value to change the normal text bold amount */
+}
